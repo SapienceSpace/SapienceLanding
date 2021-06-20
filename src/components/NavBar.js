@@ -55,7 +55,14 @@ export default function NavBar() {
           </Typography>
           <div className={classes.title} />
         </Hidden>
-        <Button edge="end" variant="outlined" color="inherit">
+        <Button
+          edge="end"
+          variant="outlined"
+          color="inherit"
+          href="https://app.sapience.space"
+          target="_blank"
+          rel="noreferrer"
+        >
           Commencer
         </Button>
       </Toolbar>
