@@ -24,8 +24,10 @@ export default function QuoteCarousel() {
       }}
     >
       <Carousel>
-        {items.map((item) => (
-          <h4 style={{ textAlign: "center", color: "#FFF" }}>{item}</h4>
+        {items.map((item, index) => (
+          <h4 key={index} style={{ textAlign: "center", color: "#FFF" }}>
+            {item}
+          </h4>
         ))}
       </Carousel>
       <p style={{ textAlign: "center", color: "#FFF" }}>
